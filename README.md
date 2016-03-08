@@ -1,9 +1,12 @@
 #Optimal Code Generation for Expression Trees using Haskell
 ##Quick Start
-Compilation:
+### To compile:
 
+```
 $ make .
+```
+### To execute:
 
-Execution:
-
-$ Main <number-of-registers> <instructions-file> <expression-tree-file> <output-file> .
+```
+$ Main <number-of-registers> <instructions-file> <expression-tree-file> <output-file> 
+```
