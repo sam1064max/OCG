@@ -2,8 +2,8 @@
 ##Quick Start
 Compilation:
 
-$ make
+$ make .
 
 Execution:
 
-$ Main <number-of-registers> <instructions-file> <expression-tree-file> <output-file>
+$ Main <number-of-registers> <instructions-file> <expression-tree-file> <output-file> .
