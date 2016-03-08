@@ -3,7 +3,7 @@
 ### To compile:
 
 ```
-$ make .
+$ make
 ```
 ### To execute:
 
