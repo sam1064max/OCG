@@ -1,0 +1,8 @@
+digraph g {
+n0 [label="+"] ;
+n0 -> n1 [arrowhead=none];
+n1 [label="5"] ;
+n0 -> n2 [arrowhead=none];
+n2 [label="d"] ;
+}
+

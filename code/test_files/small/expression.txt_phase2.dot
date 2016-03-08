@@ -1,0 +1,27 @@
+digraph g {
+{
+rank = same;
+rankdir=LR;
+n0 [label="+"] ;
+n0 -> node0 [arrowhead=none;style=dotted];
+node0 [shape = record,height=.1,label = "5|6|4"];
+}
+{
+rank = same;
+rankdir=LR;
+n1 [label="5"] ;
+n1 [label="5"] ;
+n1 -> node1 [arrowhead=none;style=dotted];
+node1 [shape = record,height=.1,label = "2|1|1"];
+}
+n0 -> n1 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n2 [label="d"] ;
+n2 -> node2 [arrowhead=none;style=dotted];
+node2 [shape = record,height=.1,label = "0|1|1"];
+}
+n0 -> n2 [arrowhead=none];
+}
+

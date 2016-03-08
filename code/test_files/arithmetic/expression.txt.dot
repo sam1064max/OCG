@@ -1,0 +1,24 @@
+digraph g {
+n0 [label="+"] ;
+n0 -> n1 [arrowhead=none];
+n1 [label="-"] ;
+n1 -> n2 [arrowhead=none];
+n2 [label="*"] ;
+n2 -> n3 [arrowhead=none];
+n3 [label="a"] ;
+n2 -> n4 [arrowhead=none];
+n4 [label="b"] ;
+n1 -> n5 [arrowhead=none];
+n5 [label="/"] ;
+n5 -> n6 [arrowhead=none];
+n6 [label="c"] ;
+n5 -> n7 [arrowhead=none];
+n7 [label="2"] ;
+n0 -> n8 [arrowhead=none];
+n8 [label="/"] ;
+n8 -> n9 [arrowhead=none];
+n9 [label="5"] ;
+n8 -> n10 [arrowhead=none];
+n10 [label="d"] ;
+}
+

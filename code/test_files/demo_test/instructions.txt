@@ -1,0 +1,7 @@
+Load 1 "m" 1
+Store "m" 1 1
+LoadConstant 1 1 1
+RegisterAssign 1 (Fork "*" [Register 1, Register 2]) 2
+RegisterAssign 1 (Fork "+" [Register 1, Register 2]) 2
+RegisterAssign 1 (Fork "ind" [Register 1]) 1
+RegisterAssign 1 (Fork "ind" [Fork "+" [Register 1, Memory "m2"]]) 4

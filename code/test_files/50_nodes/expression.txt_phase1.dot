@@ -1,0 +1,424 @@
+digraph g {
+{
+rank = same;
+rankdir=LR;
+n0 [label="/"] ;
+n0 -> node0 [arrowhead=none;style=dotted];
+node0 [shape = record,height=.1,label = "95|96|94"];
+}
+{
+rank = same;
+rankdir=LR;
+n1 [label="-"] ;
+n1 -> node1 [arrowhead=none;style=dotted];
+node1 [shape = record,height=.1,label = "46|47|45"];
+}
+n0 -> n1 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n2 [label="/"] ;
+n2 -> node2 [arrowhead=none;style=dotted];
+node2 [shape = record,height=.1,label = "19|20|18"];
+}
+n1 -> n2 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n3 [label="+"] ;
+n3 -> node3 [arrowhead=none;style=dotted];
+node3 [shape = record,height=.1,label = "8|9|7"];
+}
+n2 -> n3 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n4 [label="m4"] ;
+n4 -> node4 [arrowhead=none;style=dotted];
+node4 [shape = record,height=.1,label = "0|1|1"];
+}
+n3 -> n4 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n5 [label="-"] ;
+n5 -> node5 [arrowhead=none;style=dotted];
+node5 [shape = record,height=.1,label = "5|6|4"];
+}
+n3 -> n5 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n6 [label="m6"] ;
+n6 -> node6 [arrowhead=none;style=dotted];
+node6 [shape = record,height=.1,label = "0|1|1"];
+}
+n5 -> n6 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n7 [label="m7"] ;
+n7 -> node7 [arrowhead=none;style=dotted];
+node7 [shape = record,height=.1,label = "0|1|1"];
+}
+n5 -> n7 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n8 [label="-"] ;
+n8 -> node8 [arrowhead=none;style=dotted];
+node8 [shape = record,height=.1,label = "8|9|7"];
+}
+n2 -> n8 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n9 [label="9"] ;
+n9 [label="9"] ;
+n9 -> node9 [arrowhead=none;style=dotted];
+node9 [shape = record,height=.1,label = "2|1|1"];
+}
+n8 -> n9 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n10 [label="*"] ;
+n10 -> node10 [arrowhead=none;style=dotted];
+node10 [shape = record,height=.1,label = "5|6|4"];
+}
+n8 -> n10 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n11 [label="11"] ;
+n11 [label="11"] ;
+n11 -> node11 [arrowhead=none;style=dotted];
+node11 [shape = record,height=.1,label = "2|1|1"];
+}
+n10 -> n11 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n12 [label="12"] ;
+n12 [label="12"] ;
+n12 -> node12 [arrowhead=none;style=dotted];
+node12 [shape = record,height=.1,label = "2|1|1"];
+}
+n10 -> n12 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n13 [label="/"] ;
+n13 -> node13 [arrowhead=none;style=dotted];
+node13 [shape = record,height=.1,label = "24|25|23"];
+}
+n1 -> n13 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n14 [label="/"] ;
+n14 -> node14 [arrowhead=none;style=dotted];
+node14 [shape = record,height=.1,label = "8|9|7"];
+}
+n13 -> n14 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n15 [label="m15"] ;
+n15 -> node15 [arrowhead=none;style=dotted];
+node15 [shape = record,height=.1,label = "0|1|1"];
+}
+n14 -> n15 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n16 [label="*"] ;
+n16 -> node16 [arrowhead=none;style=dotted];
+node16 [shape = record,height=.1,label = "5|6|4"];
+}
+n14 -> n16 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n17 [label="17"] ;
+n17 [label="17"] ;
+n17 -> node17 [arrowhead=none;style=dotted];
+node17 [shape = record,height=.1,label = "2|1|1"];
+}
+n16 -> n17 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n18 [label="m18"] ;
+n18 -> node18 [arrowhead=none;style=dotted];
+node18 [shape = record,height=.1,label = "0|1|1"];
+}
+n16 -> n18 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n19 [label="/"] ;
+n19 -> node19 [arrowhead=none;style=dotted];
+node19 [shape = record,height=.1,label = "13|14|12"];
+}
+n13 -> n19 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n20 [label="/"] ;
+n20 -> node20 [arrowhead=none;style=dotted];
+node20 [shape = record,height=.1,label = "5|6|4"];
+}
+n19 -> n20 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n21 [label="m21"] ;
+n21 -> node21 [arrowhead=none;style=dotted];
+node21 [shape = record,height=.1,label = "0|1|1"];
+}
+n20 -> n21 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n22 [label="m22"] ;
+n22 -> node22 [arrowhead=none;style=dotted];
+node22 [shape = record,height=.1,label = "0|1|1"];
+}
+n20 -> n22 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n23 [label="*"] ;
+n23 -> node23 [arrowhead=none;style=dotted];
+node23 [shape = record,height=.1,label = "5|6|4"];
+}
+n19 -> n23 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n24 [label="24"] ;
+n24 [label="24"] ;
+n24 -> node24 [arrowhead=none;style=dotted];
+node24 [shape = record,height=.1,label = "2|1|1"];
+}
+n23 -> n24 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n25 [label="25"] ;
+n25 [label="25"] ;
+n25 -> node25 [arrowhead=none;style=dotted];
+node25 [shape = record,height=.1,label = "2|1|1"];
+}
+n23 -> n25 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n26 [label="+"] ;
+n26 -> node26 [arrowhead=none;style=dotted];
+node26 [shape = record,height=.1,label = "46|47|45"];
+}
+n0 -> n26 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n27 [label="*"] ;
+n27 -> node27 [arrowhead=none;style=dotted];
+node27 [shape = record,height=.1,label = "19|20|18"];
+}
+n26 -> n27 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n28 [label="-"] ;
+n28 -> node28 [arrowhead=none;style=dotted];
+node28 [shape = record,height=.1,label = "8|9|7"];
+}
+n27 -> n28 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n29 [label="29"] ;
+n29 [label="29"] ;
+n29 -> node29 [arrowhead=none;style=dotted];
+node29 [shape = record,height=.1,label = "2|1|1"];
+}
+n28 -> n29 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n30 [label="+"] ;
+n30 -> node30 [arrowhead=none;style=dotted];
+node30 [shape = record,height=.1,label = "5|6|4"];
+}
+n28 -> n30 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n31 [label="m31"] ;
+n31 -> node31 [arrowhead=none;style=dotted];
+node31 [shape = record,height=.1,label = "0|1|1"];
+}
+n30 -> n31 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n32 [label="m32"] ;
+n32 -> node32 [arrowhead=none;style=dotted];
+node32 [shape = record,height=.1,label = "0|1|1"];
+}
+n30 -> n32 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n33 [label="*"] ;
+n33 -> node33 [arrowhead=none;style=dotted];
+node33 [shape = record,height=.1,label = "8|9|7"];
+}
+n27 -> n33 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n34 [label="m34"] ;
+n34 -> node34 [arrowhead=none;style=dotted];
+node34 [shape = record,height=.1,label = "0|1|1"];
+}
+n33 -> n34 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n35 [label="-"] ;
+n35 -> node35 [arrowhead=none;style=dotted];
+node35 [shape = record,height=.1,label = "5|6|4"];
+}
+n33 -> n35 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n36 [label="36"] ;
+n36 [label="36"] ;
+n36 -> node36 [arrowhead=none;style=dotted];
+node36 [shape = record,height=.1,label = "2|1|1"];
+}
+n35 -> n36 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n37 [label="37"] ;
+n37 [label="37"] ;
+n37 -> node37 [arrowhead=none;style=dotted];
+node37 [shape = record,height=.1,label = "2|1|1"];
+}
+n35 -> n37 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n38 [label="*"] ;
+n38 -> node38 [arrowhead=none;style=dotted];
+node38 [shape = record,height=.1,label = "24|25|23"];
+}
+n26 -> n38 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n39 [label="+"] ;
+n39 -> node39 [arrowhead=none;style=dotted];
+node39 [shape = record,height=.1,label = "8|9|7"];
+}
+n38 -> n39 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n40 [label="40"] ;
+n40 [label="40"] ;
+n40 -> node40 [arrowhead=none;style=dotted];
+node40 [shape = record,height=.1,label = "2|1|1"];
+}
+n39 -> n40 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n41 [label="/"] ;
+n41 -> node41 [arrowhead=none;style=dotted];
+node41 [shape = record,height=.1,label = "5|6|4"];
+}
+n39 -> n41 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n42 [label="42"] ;
+n42 [label="42"] ;
+n42 -> node42 [arrowhead=none;style=dotted];
+node42 [shape = record,height=.1,label = "2|1|1"];
+}
+n41 -> n42 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n43 [label="43"] ;
+n43 [label="43"] ;
+n43 -> node43 [arrowhead=none;style=dotted];
+node43 [shape = record,height=.1,label = "2|1|1"];
+}
+n41 -> n43 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n44 [label="-"] ;
+n44 -> node44 [arrowhead=none;style=dotted];
+node44 [shape = record,height=.1,label = "13|14|12"];
+}
+n38 -> n44 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n45 [label="+"] ;
+n45 -> node45 [arrowhead=none;style=dotted];
+node45 [shape = record,height=.1,label = "5|6|4"];
+}
+n44 -> n45 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n46 [label="m46"] ;
+n46 -> node46 [arrowhead=none;style=dotted];
+node46 [shape = record,height=.1,label = "0|1|1"];
+}
+n45 -> n46 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n47 [label="m47"] ;
+n47 -> node47 [arrowhead=none;style=dotted];
+node47 [shape = record,height=.1,label = "0|1|1"];
+}
+n45 -> n47 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n48 [label="*"] ;
+n48 -> node48 [arrowhead=none;style=dotted];
+node48 [shape = record,height=.1,label = "5|6|4"];
+}
+n44 -> n48 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n49 [label="49"] ;
+n49 [label="49"] ;
+n49 -> node49 [arrowhead=none;style=dotted];
+node49 [shape = record,height=.1,label = "2|1|1"];
+}
+n48 -> n49 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n50 [label="50"] ;
+n50 [label="50"] ;
+n50 -> node50 [arrowhead=none;style=dotted];
+node50 [shape = record,height=.1,label = "2|1|1"];
+}
+n48 -> n50 [arrowhead=none];
+}
+

@@ -1,0 +1,118 @@
+digraph g {
+{
+rank = same;
+rankdir=LR;
+n0 [label="+"] ;
+n0 -> node0 [arrowhead=none;style=dotted];
+node0 [shape = record,height=.1,label = "27|28|28|26"];
+}
+{
+rank = same;
+rankdir=LR;
+n1 [label="-"] ;
+n1 -> node1 [arrowhead=none;style=dotted];
+node1 [shape = record,height=.1,label = "17|18|18|16"];
+}
+n0 -> n1 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n2 [shape="box";style="filled";fillcolor="azure2";label="*"] ;
+n2 -> node2 [arrowhead=none;style=dotted];
+node2 [shape = record,height=.1,label = "7|8|8|6"];
+}
+n1 -> n2 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n3 [label="a"] ;
+n3 -> node3 [arrowhead=none;style=dotted];
+node3 [shape = record,height=.1,label = "0|1|1|1"];
+}
+n2 -> n3 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n4 [label="b"] ;
+n4 -> node4 [arrowhead=none;style=dotted];
+node4 [shape = record,height=.1,label = "0|1|1|1"];
+}
+n2 -> n4 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n5 [label="9"] ;
+n5 [label="9"] ;
+n5 -> node5 [arrowhead=none;style=dotted];
+node5 [shape = record,height=.1,label = "2|1|1|1"];
+}
+n2 -> n5 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n6 [shape="box";style="filled";fillcolor="azure2";label="/"] ;
+n6 -> node6 [arrowhead=none;style=dotted];
+node6 [shape = record,height=.1,label = "7|8|8|6"];
+}
+n1 -> n6 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n7 [label="c"] ;
+n7 -> node7 [arrowhead=none;style=dotted];
+node7 [shape = record,height=.1,label = "0|1|1|1"];
+}
+n6 -> n7 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n8 [label="2"] ;
+n8 [label="2"] ;
+n8 -> node8 [arrowhead=none;style=dotted];
+node8 [shape = record,height=.1,label = "2|1|1|1"];
+}
+n6 -> n8 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n9 [label="6"] ;
+n9 [label="6"] ;
+n9 -> node9 [arrowhead=none;style=dotted];
+node9 [shape = record,height=.1,label = "2|1|1|1"];
+}
+n6 -> n9 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n10 [label="/"] ;
+n10 -> node10 [arrowhead=none;style=dotted];
+node10 [shape = record,height=.1,label = "7|8|8|6"];
+}
+n0 -> n10 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n11 [label="5"] ;
+n11 [label="5"] ;
+n11 -> node11 [arrowhead=none;style=dotted];
+node11 [shape = record,height=.1,label = "2|1|1|1"];
+}
+n10 -> n11 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n12 [label="d"] ;
+n12 -> node12 [arrowhead=none;style=dotted];
+node12 [shape = record,height=.1,label = "0|1|1|1"];
+}
+n10 -> n12 [arrowhead=none];
+{
+rank = same;
+rankdir=LR;
+n13 [label="e"] ;
+n13 -> node13 [arrowhead=none;style=dotted];
+node13 [shape = record,height=.1,label = "0|1|1|1"];
+}
+n10 -> n13 [arrowhead=none];
+}
+

@@ -1,0 +1,2 @@
+Fork "+" [Fork "-" [Fork "*" [Memory "a", Memory "b"] , Fork "/" [Memory "c", Constant 2]], Fork "/" [Constant 5, Memory "d"]]
+
